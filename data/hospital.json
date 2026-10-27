@@ -1,0 +1,55 @@
+{
+  "hospital_name": "Sunrise City Hospital",
+  "emergency_number": "012345 67890",
+  "front_desk_number": "012345 67891",
+  "opd_opening": "9:00 AM",
+  "opd_closing": "5:00 PM",
+  "doctors": [
+    {
+      "name": "Dr. Anil Sharma",
+      "specialty": "Cardiology",
+      "opd_days": ["Monday", "Wednesday", "Friday"],
+      "opd_timings": "10:00 AM to 2:00 PM",
+      "chamber": "301",
+      "on_duty_today": true
+    },
+    {
+      "name": "Dr. Meera Iyer",
+      "specialty": "Pediatrics",
+      "opd_days": ["Monday", "Tuesday", "Thursday"],
+      "opd_timings": "9:00 AM to 1:00 PM",
+      "chamber": "205",
+      "on_duty_today": true
+    },
+    {
+      "name": "Dr. Rajesh Verma",
+      "specialty": "Orthopedics",
+      "opd_days": ["Tuesday", "Thursday", "Saturday"],
+      "opd_timings": "11:00 AM to 3:00 PM",
+      "chamber": "110",
+      "on_duty_today": false
+    },
+    {
+      "name": "Dr. Priya Nair",
+      "specialty": "General Medicine",
+      "opd_days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "opd_timings": "9:00 AM to 5:00 PM",
+      "chamber": "101",
+      "on_duty_today": true
+    },
+    {
+      "name": "Dr. Suresh Kumar",
+      "specialty": "Neurology",
+      "opd_days": ["Monday", "Thursday"],
+      "opd_timings": "12:00 PM to 4:00 PM",
+      "chamber": "402",
+      "on_duty_today": false
+    }
+  ],
+  "beds": {
+    "general": { "total": 40, "available": 12 },
+    "semi_private": { "total": 15, "available": 3 },
+    "private": { "total": 10, "available": 2 },
+    "icu": { "total": 8, "available": 1 }
+  }
+}
