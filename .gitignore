@@ -1,0 +1,26 @@
+# Secrets — never commit these
+.env
+*.env
+!*.env.example
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Whisper / model caches
+*.bin
+*.pt
+models/
+
+# Logs
+*.log
+ngrok/
